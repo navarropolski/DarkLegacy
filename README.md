@@ -1,2 +1,2 @@
 # Projeto_Jogo
- Atualização 09/04/2024
+Projeto para as disciplinas LowCode, Desenvolvimento Web, Tech Forge e Comunicação do TADS da Universidade Integrado.
