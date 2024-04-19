@@ -1,4 +1,4 @@
-# Projeto_Jogo
+# Projeto Jogo Primeiro Módulo
 Projeto para as disciplinas LowCode, Desenvolvimento Web, Tech Forge e Comunicação do TADS da Universidade Integrado.
 
 ## Como jogar
