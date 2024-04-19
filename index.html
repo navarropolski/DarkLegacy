@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/gif" href="imagens/icon.gif">
     </style>
     <link rel="stylesheet" href="style.css" />
     
@@ -48,31 +49,71 @@
                 A jogabilidade mistura elementos de aventura, plataformas e hack and slash, enquanto Wuthir viaja por vastos castelos góticos, florestas sombrias e cidades abandonadas, enfrentando hordas de criaturas demoníacas. Colete relíquias para ajudá-lo em sua jornada e desafie o Necromante. </p>
         
         
-        
+                <br><br><br><br><br>
             </section>
 
-        <section>
-            <h2>Press enter</h2>
-            <div class="feature">
-                <img src="imagens/goblet.png">
-                <div><h3>Breve descrição da feature 1.</h3>  
-                    <p>Cálice Sagrado contendo sangue divino, acelera os batimentos e dá adrenalina.</p>
-                </div>       
-            </div>
-            <div class="feature">
-                <div><h3>Breve descrição da feature 2.</h3>
-                    <p>Colar de Pedra Lunar, altera a gravidade de quem o usa.</p>   
+
+            <section>
+                <h2>Personagem e Inimigos</h2>
+                <div class="feature">
+                    <img src="imagens/wuthir.png" alt="Wuthir" title="Wuthir">
+                    <div>
+                        <h3>Wuthir Valencourt</h3>  
+                        <p>Wuthir Valencourt protagonista de Dark Legacy, descendente da família de Caçadores de Vampiros Valencourt.</p>
+                    </div>
                 </div>
-                <img src="imagens/necklace.png">    
-            </div>
-            <div class="feature">
-                <img src="imagens/staff.png">
-                <div><h3>Breve descrição da feature 3.</h3>  
-                    <p>Cajado da Lebre, o deixa mais ágil ao se movimentar.</p>
+            
+                <div class="feature">
+                    <img src="imagens/mhaldazzar.png" alt="Mhaldazzar" title="Mhaldazzar">
+                    <div>
+                        <h3>Lord Mhaldazzar</h3>  
+                        <p>Lord Mhaldazzar poderoso necromante e antagonista que estava aprisionado num selo mágico pelos antepassados de Wuthir.</p>
+                    </div>
                 </div>
-            </div>      
-            <!-- Features -->
-        </section>
+            
+                <div class="feature">
+                    <img src="imagens/goblin.png" alt="Goblin" title="Goblin">
+                    <div>
+                        <h3>Goblin</h3>  
+                        <p>Criaturas verdes que adoram qualquer coisa feita de ouro, não ligados diretamente a Mhaldazzar porém costumam ser agressivos.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <img src="imagens/thing-preview.gif" alt="Thing" title="Thing">
+                    <div>
+                        <h3>Coisa</h3>  
+                        <p>Inimigo não identificado encontrado no pântano.</p>
+                    </div>
+                </div>
+            
+                <div class="feature">
+                    <img src="imagens/ghost.gif" alt="Ghost" title="Ghost">
+                    <div>
+                        <h3>Fantasma</h3>  
+                        <p>Fantasmas de aventureiros mortos escravizados por Mhaldazzar.</p>
+                    </div>
+                </div>
+            
+                <div class="feature">
+                    <img src="imagens/wraith.gif" alt="wraith" title="wraith">
+                    <div>
+                        <h3>Espectro</h3>  
+                        <p>Lacaio espectral de Mhaldazzar, costuma caçar aventureiros no pântano.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <img src="imagens/skeleton.gif" alt="Skeleton" title="Skeleton">
+                    <div>
+                        <h3>Esqueleto</h3>  
+                        <p>Os restos mortais de aventureiros de séculos passados, agora reanimados e servem a Mhaldazzar.</p>
+                    </div>
+                </div>
+
+            </section>
+
+    <!-- Features -->
 
         <section id="screenshots">
             <h2>Screenshots</h2>
@@ -93,7 +134,13 @@
     <p>© Todos os direitos reservados</p>
     </footer>
 
-            
+    <script>
+        function mostrarMenu() {
+            var menu = document.querySelector(".header-nav");
+            menu.classList.toggle("show");
+        }
+    </script>
+  
         
     </div>
 </body> 

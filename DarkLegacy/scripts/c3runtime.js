@@ -4386,7 +4386,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetAngle,
 		C3.Plugins.Sprite.Cnds.IsAnimPlaying,
 		C3.Plugins.System.Cnds.OnLayoutStart,
-		C3.Plugins.System.Acts.GoToLayout
+		C3.Plugins.System.Acts.GoToLayout,
+		C3.Behaviors.scrollto.Acts.Shake,
+		C3.Behaviors.Platform.Acts.SetMaxSpeed,
+		C3.Behaviors.Platform.Acts.SetGravity,
+		C3.Plugins.System.Cnds.Every,
+		C3.Plugins.Sprite.Acts.SetVisible
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4549,7 +4554,14 @@ self.C3_JsPropNameTable = [
 	{potion: 0},
 	{necklace: 0},
 	{checkpoint2: 0},
-	{checkpoint1: 0}
+	{checkpoint1: 0},
+	{goblet: 0},
+	{Sprite13: 0},
+	{Sprite113: 0},
+	{neck: 0},
+	{Sprite114: 0},
+	{darklegacy: 0},
+	{pressenter: 0}
 ];
 
 self.InstanceType = {
@@ -4702,7 +4714,14 @@ self.InstanceType = {
 	potion: class extends self.ISpriteInstance {},
 	necklace: class extends self.ISpriteInstance {},
 	checkpoint2: class extends self.ISpriteInstance {},
-	checkpoint1: class extends self.ISpriteInstance {}
+	checkpoint1: class extends self.ISpriteInstance {},
+	goblet: class extends self.ISpriteInstance {},
+	Sprite13: class extends self.ISpriteInstance {},
+	Sprite113: class extends self.ISpriteInstance {},
+	neck: class extends self.ISpriteInstance {},
+	Sprite114: class extends self.ISpriteInstance {},
+	darklegacy: class extends self.ISpriteInstance {},
+	pressenter: class extends self.ISpriteInstance {}
 }
 }
 
@@ -4831,7 +4850,11 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
 		},
-		() => 180
+		() => 180,
+		() => 20,
+		() => 0.4,
+		() => 430,
+		() => 900
 ];
 
 
