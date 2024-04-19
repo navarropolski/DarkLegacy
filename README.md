@@ -5,4 +5,4 @@ Projeto para as disciplinas LowCode, Desenvolvimento Web, Tech Forge e Comunica√
 * Use as setas para se movimentar;
 * Ataque usando a tecla A;
 
-[Acesse o site](https://darklegacy-navarropolskis-projects.vercel.app/index3.html)
+[Acesse o site](https://projeto-jogo-blush.vercel.app/index3.html)
